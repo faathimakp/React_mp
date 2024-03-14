@@ -1,0 +1,65 @@
+
+=>Media player
+==============
+
+->Landing
+   -header
+   -footer
+->dashboard
+   -header
+   -footer
+   -add video
+   -list video
+   -category
+->history
+
+1.Landingpage-intro
+2.add youtube video
+3.list added videos
+4.play added videos
+5.delete added videos
+6.add category
+7.list category
+8.list category videos
+9.add videos to categories
+10.delete categories
+11.list watch history
+
+->project create
+->clean up
+->basic css
+->react bootstrap install
+    npm i react-bootstrap bootstrap
+->set bootstrap theme
+    bootstrap.css[bootstrap.min.css]
+ ->pages 8 components
+ ->rooting of pages and components
+      react-router-dom
+      npm i react-router-dom
+
+-Axios
+---------
+-package with method for xmlhttpRequest
+-handles data transformation itself
+-to install
+    npm i axios
+
+-axios request structure
+     -basic get request
+      axios.get("url")
+     -other request
+      const req=axios.create({options})
+
+   {options}=>
+   {
+     base-url:"localhost:3000",
+     url:"/allVideos",
+     method:"post",
+     headers:{"Content-Type":"application/json"}
+   }
+
+
+
+   =>Toastify
+
+   
